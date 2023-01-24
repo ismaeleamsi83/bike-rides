@@ -1,0 +1,41 @@
+#contenedor{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.titulo-naranja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;background-color: #fb9c5c;
+    color: white;
+    padding: 2rem;
+}
+
+.titulo-naranja h3{
+    font-size: 4rem;
+}
+
+.titulo-naranja p{
+    font-size: x-large;
+}
+
+
+#img-ciclistas{
+    width: 100%;
+}
+
+@media (max-width: 1024px){
+    .titulo-naranja h3{
+        font-size: 3rem;
+    }
+    .titulo-naranja p{
+        font-size: large;
+    }
+}

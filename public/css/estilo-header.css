@@ -1,0 +1,50 @@
+#contenedor{
+    width: 100%;
+    background-color: #f0f8ff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#head-prin{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#logo{
+    height: 10rem;
+    padding-left: 4rem;
+    padding-top: 1rem;
+}
+
+#icon-perfil{
+    height: 6rem;
+    margin-right: 5rem;
+}
+
+#icon-perfil:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+#montain{
+    width:100%;
+}
+
+@media (max-width: 1024px){
+
+    #logo{
+        height: 6rem;
+        padding-left: 2rem;
+        padding-top: 1rem;
+    }
+
+    #icon-perfil{
+        height: 4rem;
+        margin-right: 2rem;
+    }
+
+}
